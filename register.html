@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+    <main class="wrapper">
+        <div class="form-card">
+            <div class="form-illustration">
+                </div>
+
+            <div class="form-content">
+                <div class="form-header">
+                    <h1>Create Your Account</h1>
+                    <p>Already have an account? <a href="index.html" class="link-primary">Login</a></p>
+                </div>
+
+                <form class="registration-form" action="#">
+                    
+                    <div class="input-group">
+                        <label for="firstName">First name</label>
+                        <input type="text" id="firstName" placeholder="Martin" class="is-valid">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" placeholder="Cooper" class="is-valid">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="cooper.martin@gmail.com" class="is-invalid">
+                        <span class="error-text">Wrong Email</span>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <div class="input-with-icon">
+                            <input type="password" id="password" placeholder="Password">
+                            <i class="fa-solid fa-eye input-icon"></i>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <div class="input-with-icon">
+                            <input type="password" id="confirmPassword" placeholder="********">
+                            <i class="fa-solid fa-eye-slash input-icon"></i>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Register</button>
+                </form>
+
+                <div class="divider">
+                    <span>Or</span>
+                </div>
+
+                <div class="social-login">
+                <button class="btn-social btn-fb">
+                    <img src="assets/images//icons/facebook.svg" alt="Facebook" class="social-icon"> 
+                    Continue with Facebook
+                </button>
+                <button class="btn-social btn-google">
+                    <img src="assets/images//icons/google.svg" alt="Google" class="social-icon"> 
+                    Continue with Google
+                </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

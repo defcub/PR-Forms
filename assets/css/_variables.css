@@ -1,0 +1,11 @@
+:root {
+    --font-main: 'Source Sans Pro', sans-serif;
+    --text-dark: #2B3B4E;
+    --text-gray: #82868B;
+    --primary-orange: #FF7B42;
+    --gradient-btn: linear-gradient(90deg, #FB724C 0%, #FE904B 100%);
+    --border-default: #D8D8D8;
+    --border-valid: #4CAF50;
+    --border-invalid: #FF4B4B;
+    --bg-page: #F4F7F6;
+}
